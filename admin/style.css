@@ -1,0 +1,32 @@
+#del {
+	cursor: pointer;
+}
+#del:hover {
+	background: #c0392b;
+}
+
+#nav {
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	margin-bottom: 50px;
+	display: block;
+}
+#nav:hover {
+	color: #ffa801;
+}
+#navS {
+	position: fixed;
+	z-index: 999;
+	margin-top: 25px;
+	
+	
+}
+#list:hover {
+	background: rgba(0,0,0,.1);
+}
+#ti {
+	font-size: 15px;
+	width: 30px;
+}
+

@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	background: #1e272e;
+	color:  #ffa801;
+}
+#login {
+	position: absolute;
+	top: 46%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+h3 {
+	margin-bottom: 15px;
+	font-size: 30px;
+	font-weight: 500;
+}
+#uname,#pwd {
+	width: 150px;
+	height: 23px;
+	padding-left: 5px;
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #ffa801;
+}
+#sub {
+	width: 100%;
+	height: 23px;
+	background: none;
+	outline: none;
+	border: 1px solid #ffa801;
+	cursor: pointer;
+	transition: .2s ease;
+}
+#sub:hover {
+	background: #ffa801;
+	color: white;
+}

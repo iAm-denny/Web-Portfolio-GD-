@@ -1,0 +1,90 @@
+* {
+	padding: 0;
+	margin: 0;
+	background: #1e272e;
+}
+#main {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 2px solid #ffa801;
+	border-radius: 5px;
+	padding: 25px;
+	box-shadow: 0 0 15px black;
+	
+}
+label {
+	font-size: 23px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	color: #f0932b;
+	margin-left: 10px;
+}
+#uname,#email,#pwd{
+	margin: 10px 0 40px 0px;
+	width: 250px;
+	background: none;
+	outline: none;
+	border: none; 
+	border-bottom: 2px solid #ffa801;
+	font-size: 19px;
+	transition: .5s ease;
+	color: #ffa801;
+}
+#uname:focus,#email:focus,#pwd:focus {
+	width: 275px;
+	margin-left: -10px;
+	
+}
+#crt {
+	border: 2px solid #ffa801;
+	margin-left: 150px;
+	font-size: 18px;
+	width: 100px;
+	height: 30px;
+	transition: .2s linear;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	color: #ffa801;
+}
+#crt:hover {
+	background: #ffa801;
+	color: white;
+	box-shadow: 0 0 15px #ffa801;
+}
+#back {
+	text-align: center;
+	margin-top: 15px;
+}
+#back>a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #ffa801;
+}
+#back>a:hover {
+	border-bottom: 1px solid #ffa801;
+}
+input:required {
+    box-shadow:none;
+}
+@media only screen and (max-width: 500px){
+	#main {
+		padding: 8px;
+	}
+	#uname,#email,#pwd,#pwd2{
+		width: 200px;
+	}
+	#crt {
+		margin-left: 100px;
+		display: block;
+	}
+	#uname:focus,#email:focus,#pwd:focus {
+	width: 215px;
+	margin-left: -10px;
+}
+	
+	
+
+}
